@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>flex</title>
+	<style type="text/css">
+	#main{
+	        display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			
+			}	
+	#main div{
+	 width: 150px;
+	 border: 1px solid;
+	}
+
+@media screen and (max-width: 640px)
+	{
+		#main{
+			align-items: flex-start;
+		}
+		#main div:nth-of-type(4){
+			order: -1;
+		}
+	}
+	</style>
+</head>
+<body>
+<div id="main">
+  		<div style="height: 120px"></div>
+  		<div style="height: 100px"></div>
+  		<div style="height: 40px"></div>
+  		<div style="height: 200px;border-color: #0f0"></div>
+  	</div>
+</body>
+</html>

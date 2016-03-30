@@ -33,17 +33,26 @@ p{
 .body ul{
 	list-style: none;
 }
-.body div{
+.body1{
+	margin: 30px;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 3px 3px 3px #999999;
+	overflow: hidden;
+}
+.body1 div{
     border: 1px solid red;
     width:150px;
     height:150px;
-    margin: 20px 10px 30px 40px;
+    list-style: none;
+    float: left;
+    margin: 20px 20px;
 }
-.body div img{
+.body1 div img{
      width: 130px;
     padding: 0px 10px 10px 10px;
 }
-.body div h3{
+.body1 div h3{
 	font-size: 3px;
 	text-align: center;
 }
